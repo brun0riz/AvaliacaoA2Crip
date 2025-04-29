@@ -1,0 +1,2 @@
+Questão:  (1,0) Considerando o algoritmo SHA-256, se você fosse responsável por propor uma melhora de sua segurança, com foco em dificultar a decodificação mediante força bruta, o que você faria? Em qual parte do algoritmo você aplicaria a alteração? Justifique sua resposta.
+Resposta: Acredito que, com o cenário apresentado, uma boa abordagem aplicar diversas camadas do SHA256, quando se termina um processo do SHA256, esta hash será usada como texto de uma nova codificação do SHA256, assim o custo computacional para se tentar decodificar iria aumentar consideralvelmente.
